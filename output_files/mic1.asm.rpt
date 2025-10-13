@@ -1,6 +1,6 @@
 Assembler report for mic1
-Sun Jul 20 21:13:33 2025
-Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Mon Sep 22 07:37:59 2025
+Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
 ---------------------
@@ -10,8 +10,8 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/jao/Documents/Faculdade/Periodo 3/MIC-1/Juan Pablo/Juan_pablo/output_files/mic1.sof
-  6. Assembler Device Options: C:/Users/jao/Documents/Faculdade/Periodo 3/MIC-1/Juan Pablo/Juan_pablo/output_files/mic1.pof
+  5. Assembler Device Options: C:/Users/Aluno/Desktop/MIC1-main/output_files/mic1.sof
+  6. Assembler Device Options: C:/Users/Aluno/Desktop/MIC1-main/output_files/mic1.pof
   7. Assembler Messages
 
 
@@ -38,11 +38,11 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sun Jul 20 21:13:33 2025 ;
+; Assembler Status      ; Successful - Mon Sep 22 07:37:59 2025 ;
 ; Revision Name         ; mic1                                  ;
-; Top-level Entity Name ; SHIFTER                               ;
+; Top-level Entity Name ; CONTROL_UNIT                          ;
 ; Family                ; Cyclone II                            ;
-; Device                ; EP2C5F256C6                           ;
+; Device                ; EP2C5T144C6                           ;
 +-----------------------+---------------------------------------+
 
 
@@ -78,52 +78,52 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+----------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                    ;
-+----------------------------------------------------------------------------------------------+
-; File Name                                                                                    ;
-+----------------------------------------------------------------------------------------------+
-; C:/Users/jao/Documents/Faculdade/Periodo 3/MIC-1/Juan Pablo/Juan_pablo/output_files/mic1.sof ;
-; C:/Users/jao/Documents/Faculdade/Periodo 3/MIC-1/Juan Pablo/Juan_pablo/output_files/mic1.pof ;
-+----------------------------------------------------------------------------------------------+
++--------------------------------------------------------+
+; Assembler Generated Files                              ;
++--------------------------------------------------------+
+; File Name                                              ;
++--------------------------------------------------------+
+; C:/Users/Aluno/Desktop/MIC1-main/output_files/mic1.sof ;
+; C:/Users/Aluno/Desktop/MIC1-main/output_files/mic1.pof ;
++--------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/jao/Documents/Faculdade/Periodo 3/MIC-1/Juan Pablo/Juan_pablo/output_files/mic1.sof ;
-+----------------+-------------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                               ;
-+----------------+-------------------------------------------------------------------------------------------------------+
-; Device         ; EP2C5F256C6                                                                                           ;
-; JTAG usercode  ; 0x0008049B                                                                                            ;
-; Checksum       ; 0x0008049B                                                                                            ;
-+----------------+-------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/Aluno/Desktop/MIC1-main/output_files/mic1.sof ;
++----------------+-----------------------------------------------------------------+
+; Option         ; Setting                                                         ;
++----------------+-----------------------------------------------------------------+
+; Device         ; EP2C5T144C6                                                     ;
+; JTAG usercode  ; 0x00073E6C                                                      ;
+; Checksum       ; 0x00073E6C                                                      ;
++----------------+-----------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/jao/Documents/Faculdade/Periodo 3/MIC-1/Juan Pablo/Juan_pablo/output_files/mic1.pof ;
-+--------------------+---------------------------------------------------------------------------------------------------+
-; Option             ; Setting                                                                                           ;
-+--------------------+---------------------------------------------------------------------------------------------------+
-; Device             ; EPCS4                                                                                             ;
-; JTAG usercode      ; 0x00000000                                                                                        ;
-; Checksum           ; 0x0750283F                                                                                        ;
-; Compression Ratio  ; 3                                                                                                 ;
-+--------------------+---------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/Aluno/Desktop/MIC1-main/output_files/mic1.pof ;
++--------------------+-------------------------------------------------------------+
+; Option             ; Setting                                                     ;
++--------------------+-------------------------------------------------------------+
+; Device             ; EPCS4                                                       ;
+; JTAG usercode      ; 0x00000000                                                  ;
+; Checksum           ; 0x0752EAAA                                                  ;
+; Compression Ratio  ; 3                                                           ;
++--------------------+-------------------------------------------------------------+
 
 
 +--------------------+
 ; Assembler Messages ;
 +--------------------+
 Info: *******************************************************************
-Info: Running Quartus II 64-Bit Assembler
+Info: Running Quartus II 32-bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sun Jul 20 21:13:32 2025
+    Info: Processing started: Mon Sep 22 07:37:58 2025
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off mic1 -c mic1
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
-Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4548 megabytes
-    Info: Processing ended: Sun Jul 20 21:13:33 2025
+Info: Quartus II 32-bit Assembler was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 353 megabytes
+    Info: Processing ended: Mon Sep 22 07:37:59 2025
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

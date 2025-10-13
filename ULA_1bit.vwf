@@ -1,3 +1,4 @@
+/* Simulator = Quartus II Simulator */
 /*
 WARNING: Do NOT edit the input and output ports in this file in a text
 editor if you plan to continue editing the block that represents it in
@@ -122,12 +123,7 @@ SIGNAL("INVA")
 	PARENT = "";
 }
 
-GROUP("F")
-{
-	MEMBERS = "F0", "F1";
-}
-
-SIGNAL("OUT")
+SIGNAL("OUTPUT")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -135,6 +131,11 @@ SIGNAL("OUT")
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
 	PARENT = "";
+}
+
+GROUP("F")
+{
+	MEMBERS = "F0", "F1";
 }
 
 TRANSITION_LIST("A")
@@ -280,12 +281,35 @@ TRANSITION_LIST("INVA")
 	}
 }
 
-TRANSITION_LIST("OUT")
+TRANSITION_LIST("OUTPUT")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 2000.0;
+		LEVEL 0 FOR 307.146;
+		LEVEL 1 FOR 103.839;
+		LEVEL 0 FOR 96.161;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 3.839;
+		LEVEL 1 FOR 196.161;
+		LEVEL 0 FOR 3.181;
+		LEVEL 1 FOR 96.819;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 99.197;
+		LEVEL 1 FOR 4.365;
+		LEVEL 0 FOR 95.635;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 4.365;
+		LEVEL 1 FOR 95.635;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 4.04;
+		LEVEL 0 FOR 0.325;
+		LEVEL 1 FOR 95.635;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 4.365;
+		LEVEL 0 FOR 95.635;
+		LEVEL 1 FOR 93.657;
 	}
 }
 
@@ -384,7 +408,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "OUT";
+	CHANNEL = "OUTPUT";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 10;

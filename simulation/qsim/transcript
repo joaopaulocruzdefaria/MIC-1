@@ -2,34 +2,24 @@
 # ** Warning: (vlib-34) Library already exists at "work".
 # 
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module SHIFTER
+# -- Compiling module decoder_2x4
 # 
 # Top level modules:
-# 	SHIFTER
+# 	decoder_2x4
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module SHIFTER_vlg_sample_tst
-# -- Compiling module SHIFTER_vlg_check_tst
-# -- Compiling module SHIFTER_vlg_vec_tst
-# 
-# Top level modules:
-# 	SHIFTER_vlg_vec_tst
-# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.SHIFTER_vlg_vec_tst 
-# Loading work.SHIFTER_vlg_vec_tst
-# Loading work.SHIFTER
-# Loading cycloneii_ver.cycloneii_lcell_comb
-# Loading cycloneii_ver.cycloneii_io
-# Loading cycloneii_ver.cycloneii_mux21
-# Loading cycloneii_ver.cycloneii_dffe
-# Loading cycloneii_ver.cycloneii_asynch_io
-# Loading work.SHIFTER_vlg_sample_tst
-# Loading work.SHIFTER_vlg_check_tst
-# SDF 10.1d Compiler 2012.11 Nov  2 2012
-# 
-# Loading instances from mic1_v.sdo
-# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
-# Loading timing data from mic1_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /SHIFTER_vlg_vec_tst File: mic1.vt
-# Simulation passed !
-# ** Note: $finish    : mic1.vt(761)
-#    Time: 1 us  Iteration: 0  Instance: /SHIFTER_vlg_vec_tst/tb_out
+# -- Compiling module decoder_2x4_vlg_sample_tst
+# -- Compiling module decoder_2x4_vlg_check_tst
+# ** Error: mic1.vt(60): near "02": syntax error, unexpected INTEGER NUMBER, expecting ')'
+# ** Error: mic1.vt(72): near "02e": Digits must follow 'E' character in real.
+# ** Error: mic1.vt(82): near "02e": Digits must follow 'E' character in real.
+# ** Error: mic1.vt(122): near "02e": Digits must follow 'E' character in real.
+# ** Error: mic1.vt(122): near "02e": Digits must follow 'E' character in real.
+# ** Error: mic1.vt(139): near "02e": Digits must follow 'E' character in real.
+# ** Error: mic1.vt(154): near "02e": Digits must follow 'E' character in real.
+# ** Error: mic1.vt(168): near "02e": Digits must follow 'E' character in real.
+# ** Error: mic1.vt(168): near "02e": Digits must follow 'E' character in real.
+# ** Error: mic1.vt(169): near "02e": Digits must follow 'E' character in real.
+# ** Error: mic1.vt(174): near "02e": Digits must follow 'E' character in real.
+# ** Error: mic1.vt(178): near "02e": Digits must follow 'E' character in real.
+# ** Error: c:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+# Executing ONERROR command at macro ./mic1.do line 4
