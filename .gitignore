@@ -1,0 +1,27 @@
+# Arquivos e pastas gerados pelo Quartus
+output_files/
+simulation/
+db/
+incremental_db/
+greybox_tmp/
+*.qws
+*.bak
+*.rpt
+*.summary
+*.done
+*.log
+*.qdf
+*.sof
+*.pof
+*.sld
+*.jdi
+*.srf
+*.vhd.bak
+*.vwf.temp
+
+# Arquivos de configuração do Visual Studio (pasta .vs)
+.vs/
+
+# Outros arquivos temporários do sistema
+*.stackdump
+Thumbs.db

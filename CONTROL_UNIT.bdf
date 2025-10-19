@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 280 368 448 384)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Z" (rect 5 0 13 12)(font "Arial" ))
+	(text "Z" (rect 5 0 12 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 280 400 448 416)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "JAMN" (rect 5 0 35 12)(font "Arial" ))
+	(text "JAMN" (rect 5 0 34 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 280 424 448 440)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "N" (rect 5 0 14 12)(font "Arial" ))
+	(text "N" (rect 5 0 13 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -87,7 +87,7 @@ applicable agreement for further details.
 	(input)
 	(rect 264 280 472 296)
 	(text "INPUT" (rect 165 0 193 10)(font "Arial" (font_size 6)))
-	(text "NEXT_ADDRESS[8..0]" (rect 5 0 118 12)(font "Arial" ))
+	(text "NEXT_ADDRESS[8..0]" (rect 5 0 117 12)(font "Arial" ))
 	(pt 208 8)
 	(drawing
 		(line (pt 124 12)(pt 149 12))
@@ -101,7 +101,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 880 288 1056 304)
+	(rect 720 280 896 296)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "PC[8..0]" (rect 90 0 131 12)(font "Arial" ))
 	(pt 0 8)
@@ -266,11 +266,6 @@ applicable agreement for further details.
 	(pt 920 408)
 )
 (connector
-	(pt 880 296)
-	(pt 824 296)
-	(bus)
-)
-(connector
 	(pt 728 408)
 	(pt 616 408)
 )
@@ -346,4 +341,9 @@ applicable agreement for further details.
 	(text "NEXT_ADDRESS[8]" (rect 613 440 712 452)(font "Arial" ))
 	(pt 712 456)
 	(pt 608 456)
+)
+(connector
+	(pt 720 288)
+	(pt 664 288)
+	(bus)
 )
