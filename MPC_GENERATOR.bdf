@@ -379,18 +379,6 @@ applicable agreement for further details.
 	(pt 840 448)
 )
 (connector
-	(text "JAM[1]" (rect 650 400 684 412)(font "Arial" ))
-	(pt 696 416)
-	(pt 680 416)
-	(bus)
-)
-(connector
-	(text "JAM[0]" (rect 667 448 701 460)(font "Arial" ))
-	(pt 680 464)
-	(pt 696 464)
-	(bus)
-)
-(connector
 	(pt 840 456)
 	(pt 800 456)
 )
@@ -503,4 +491,14 @@ applicable agreement for further details.
 (connector
 	(pt 608 480)
 	(pt 696 480)
+)
+(connector
+	(text "JAM[1]" (rect 656 400 690 412)(font "Arial" ))
+	(pt 696 416)
+	(pt 672 416)
+)
+(connector
+	(text "JAM[0]" (rect 656 448 690 460)(font "Arial" ))
+	(pt 696 464)
+	(pt 664 464)
 )
