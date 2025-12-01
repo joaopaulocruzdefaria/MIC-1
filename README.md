@@ -1,27 +1,21 @@
-# Laboratório de Arquitetura e Organização de Computadores I (LAOC1)
+# 🏛️ Laboratório de Arquitetura e Organização de Computadores I (LAOC I)
 
-Este repositório contém os projetos desenvolvidos para a disciplina de Laboratório de Arquitetura e Organização de Computadores I (LAOC1), coordenada pelo Professor Christian Herrera.
+> Repositório de projetos práticos desenvolvidos para a disciplina de LAOC I.
 
-## Equipe
-- João Siqueira
-- João Romualdo
-- Ahmed Hachem
+## 📄 Sobre a Disciplina
+Este repositório contém os códigos e documentação dos projetos desenvolvidos durante a disciplina de **Laboratório de Arquitetura e Organização de Computadores I**, coordenada pelo **Prof. Christian Herrera**.
 
-## Sobre a Disciplina
+O foco principal é a aplicação prática de conceitos fundamentais, incluindo:
+* Implementação de componentes básicos de hardware.
+* Desenvolvimento e simulação de circuitos digitais.
+* Estudo da arquitetura e organização de processadores.
 
-LAOC1 (Laboratório de Arquitetura e Organização de Computadores I) é uma disciplina focada na aplicação prática dos conceitos de arquitetura e organização de computadores. Neste laboratório, exploramos a implementação de componentes básicos de hardware, circuitos digitais e elementos fundamentais da arquitetura de computadores.
+## 👥 Equipe
+Trabalho desenvolvido pelos alunos:
 
-## Tecnologias Utilizadas
-
-- Quartus II 13.0.
-- FPGA Cyclone II
-  
-## Contribuições
-
-Este projeto foi desenvolvido como parte do curso de LAOC1. Contribuições dos membros da equipe estão detalhadas em cada projeto específico.
+* **João Paulo Cruz**
+* **Pedro Galvão**
+* **Igor Peixoto**
 
 ---
-
-
-
-© 2025 - João Siqueira, João Romualdo, Ahmed Hachem
+© 2025 - Desenvolvido para fins acadêmicos.
